@@ -2,7 +2,7 @@
   hosts: local
   become: true
   tasks:
-    - name: Create a file
-      file:
-        path: /home/vibakar/Downloads/myfile.txt
-        state: touch
+    - name: unarchive a file
+      unarchive:
+        src: /home/vibakar/Downloads/tar_files/apache-tomcat-9.0.19.tar.gz
+        dest: /home/vibakar/Downloads/tar_files/
