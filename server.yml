@@ -1,7 +1,7 @@
 - 
-  hosts: remote
+  hosts: local
   tasks:
     - name: create a file
       file:
-        path: /home/ubuntu/test.txt
+        path: /home/vibakar/test.txt
         state: touch
