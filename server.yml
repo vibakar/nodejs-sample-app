@@ -1,6 +1,8 @@
 - 
   hosts: local
-  become: yes
+  become: true
   tasks:
-    - name: echo hello vibakar
-      command: echo "Hello vibakar"
+    - name: Create a file
+      file:
+        path: /home/vibakar/Downloads/myfile.txt
+        state: touch
