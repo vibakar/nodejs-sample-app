@@ -1,7 +1,7 @@
 - 
   hosts: local
   tasks:
-    - name: Create a file
+    - name: Create a folder
       file:
-        path: /home/vibakar/Downloads/myfile.txt
-        state: touch
+        path: /home/ubuntu/vibakar
+        state: directory
