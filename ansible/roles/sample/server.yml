@@ -5,3 +5,7 @@
       file:
         path: /home/ubuntu/vibakar
         state: directory
+    - name: Create a file
+      file:
+        path: /home/ubuntu/vibakar/newfile.txt
+        state: touch

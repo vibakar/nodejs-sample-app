@@ -1,2 +1,0 @@
-local ansible_host=192.168.0.127 ansible_connection=local
-remote ansible_host=ec2-3-17-74-98.us-east-2.compute.amazonaws.com ansible_connection=ssh ansible_user=ubuntu ansible_ssh_private_key_file=./amazonvm.pem
